@@ -1,0 +1,43 @@
+.welcome-navi li  {
+    display: inline;
+
+}
+body {
+    margin: 0px;
+    background-color: lightblue;
+    position: relative; width: auto; height: auto;
+
+}
+.welcome-navi {
+    padding: 10px 6px;
+    background-color: beige;
+}
+.welcome-navi ul  {
+    margin: 5px;
+}
+
+li {
+    color: black;
+    padding: 10px;
+} 
+ 
+.welcome-navi li  a  {
+    padding: 7px;
+    list-style-type: none;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+}
+.welcome-navi li a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 24%;
+}
+
+@media only screen and (max-width:500px)  {
+    body{
+        background-color: brown;
+    }
+
+    
+}
